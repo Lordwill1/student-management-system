@@ -106,3 +106,58 @@ ul li a
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.);
 }
+.courses
+{
+    width: 80%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.label_text
+{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.input_deg
+{
+    width: 30%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.adm_int
+{
+    padding-top: 10px;
+}
+
+.input_txt
+{
+    width: 30%;
+    height: 120px;
+    /* border-radius: 25px; */
+    border: 1px solid black;
+}
+
+#submit
+{
+    position: relative;
+    width: 15%;
+    left: 5%;
+}
+
+footer{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+.footer_txt
+{
+    text-align: center;
+    color: white;
+    top: 20%;
+    position: relative;
+}

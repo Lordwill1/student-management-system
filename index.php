@@ -75,22 +75,85 @@
         <div class="row">
             <div class="col-md-4">
                 <img class="teacher" src="teacher1.jpg">
-                <p>My name is john</p>
+                <p>My name is Sales guru, I am cream of well informed and qualified lead-learners with a passion for the young minds to help them realize their full potentials.</p>
 
             </div>
 
             <div class="col-md-4">
-            <img class="teacher" src="teacher3.jpg">
+                <img class="teacher" src="teacher3.jpg">
+                <p>My name is Cynthia, I am cream of well informed and qualified lead-learners with a passion for the young minds to help them realize their full potentials.</p>
 
             </div>
 
             <div class="col-md-4">
-            <img class="teacher" src="teacher2.jpg">
+                <img class="teacher" src="teacher2.jpg">
+                <p>My name is Joshua, I am cream of well informed and qualified lead-learners with a passion for the young minds to help them realize their full potentials.</p>
 
             </div>
             
         </div>
     </div>
-    
+
+    <center>
+        <h1> <br> <br>Our Courses</h1>
+    </center>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="courses" src="webdev.jpg">
+                <h3>Web Developer</h3>
+
+            </div>
+
+            <div class="col-md-4">
+                <img class="courses" src="graphics.jpg">
+                <h3>Graphics Designer</h3>
+
+            </div>
+
+            <div class="col-md-4">
+                <img class="courses" src="marketing.jpg">
+                <h3>Marketing</h3>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <center>
+        <h1>Admission Form</h1>
+    </center>
+
+    <div align="center" class="admission_form">
+        <form>
+            <div class="adm_int">
+                <label class="label_text" >Name</label>
+                <input class="input_deg" type="text" name="">
+            </div>
+
+            <div class="adm_int">
+                <label class="label_text" >Email</label>
+                <input class="input_deg" type="text" name="">
+            </div>
+
+            <div class="adm_int">
+                <label class="label_text">Phone</label>
+                <input class="input_deg" type="text" name="">
+            </div>
+
+            <div class="adm_int">
+                <label class="label_text" >Message</label>
+                <textarea class="input_txt"></textarea>
+            </div>
+            <div>
+                <input class="btn btn-primary" id="submit" type="submit" value="Apply">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <h3 class="footer_txt">All @copyright reserved by Silicon Africa</h3>
+    </footer>
 </body>
 </html>
