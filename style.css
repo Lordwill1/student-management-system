@@ -161,3 +161,18 @@ footer{
     top: 20%;
     position: relative;
 }
+
+.form_deg
+{
+    padding-top: 200px;
+}
+
+.label_deg
+{
+    display: inline-block;
+    color: skyblue;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
