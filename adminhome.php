@@ -20,12 +20,10 @@
         <label class="logo">W-School</label>
 
         <ul>
-            <li><a href="">Home</a></li>
+            <li><a href="adminhome.php">Home</a></li>
             <li><a href="">Contact</a></li>
             <li><a href="">Admission</a></li>
-            <li><a href="login.php" class="btn btn-success">Login</a></li>
-
-            <li><a href="signup/signup.inc.php" class="btn btn-warning">Signup</a></li>
+            <li><a href="logout.php" class="btn btn-danger">Logout</a></li>
         </ul>
     </nav>
 
