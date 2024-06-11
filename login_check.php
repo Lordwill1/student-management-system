@@ -54,7 +54,7 @@ if($data===false)
 
 			$_SESSION['usertype']="admin";
 
-			header("location:adminhome.php");
+			header("location:admindashboard/adminhome.php");
 		}
 
 		else
