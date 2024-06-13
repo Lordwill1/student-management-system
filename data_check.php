@@ -39,7 +39,7 @@ if($data===false)
         }
 
         else{
-            echo "Apply Failed";
+            echo "Application Failed";
         }
     }
 
