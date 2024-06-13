@@ -45,7 +45,7 @@ if($data===false)
 
 			$_SESSION['usertype']="student";
 
-			header("location:studenthome.php");
+			header("location:studentdashboard/studenthome.php");
 		}
 
 		elseif($row["usertype"]=="admin")

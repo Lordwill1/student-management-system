@@ -119,6 +119,7 @@ ul li a
     width: 100px;
     text-align: right;
     padding-right: 10px;
+    
 }
 
 .input_deg
@@ -127,6 +128,7 @@ ul li a
     height: 40px;
     border-radius: 25px;
     border: 1px solid black;
+    padding-left: 10px;
 }
 
 .adm_int
@@ -202,4 +204,30 @@ footer{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+}
+
+.alert-box {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.alert-box button {
+    margin-left: 15px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.alert-box button:hover {
+    color: #ddd;
 }

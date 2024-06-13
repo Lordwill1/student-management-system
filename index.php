@@ -1,3 +1,17 @@
+
+<?php
+error_reporting(0);
+// session_start();
+session_destroy();
+
+// $_SESSION['message'] = "Sign up or Login";
+
+
+// Include the alert script
+include 'alert.php';
+?>
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -127,28 +141,28 @@
     </center>
 
     <div align="center" class="admission_form">
-        <form>
+        <form action="data_check.php" method="POST">
             <div class="adm_int">
                 <label class="label_text" >Name</label>
-                <input class="input_deg" type="text" name="">
+                <input class="input_deg" type="text" name="name">
             </div>
 
             <div class="adm_int">
                 <label class="label_text" >Email</label>
-                <input class="input_deg" type="text" name="">
+                <input class="input_deg" type="text" name="email">
             </div>
 
             <div class="adm_int">
                 <label class="label_text">Phone</label>
-                <input class="input_deg" type="text" name="">
+                <input class="input_deg" type="text" name="phone">
             </div>
 
             <div class="adm_int">
                 <label class="label_text" >Message</label>
-                <textarea class="input_txt"></textarea>
+                <textarea class="input_txt" name="message"></textarea>
             </div>
             <div>
-                <input class="btn btn-primary" id="submit" type="submit" value="Apply">
+                <input class="btn btn-primary" id="submit" type="submit" value="Apply" name="apply">
             </div>
         </form>
     </div>
