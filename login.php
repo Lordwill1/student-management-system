@@ -1,3 +1,8 @@
+<?php
+include 'signup_alert.php';
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -75,4 +80,5 @@
 	</center>
 
 </body>
+
 </html>

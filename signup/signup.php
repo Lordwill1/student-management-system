@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>Signup Form</title>
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="signup.css">
 
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -27,52 +27,44 @@
         </ul>
     </nav>
 
-	<center>
+
+    <div align="center" class="admission_form">
 		
+        <form action="signup_check.php" method="POST" class="signup_form">
+            <div class="adm_int">
+				<h1 class="texth1">Signup</h1>
+                <label class="label_text" >Username</label>
+                <input class="input_deg" type="text" name="username">
+            </div>
 
-		<div class="form_deg">
+            <div class="adm_int">
+                <label class="label_text" >Phone</label>
+                <input class="input_deg" type="text" name="phone">
+            </div>
 
-			<center class="title_deg">
-				Signup Form
+            <div class="adm_int">
+                <label class="label_text">Email</label>
+                <input class="input_deg" type="text" name="email">
+            </div>
 
-				<h4>
-					<?php 
+            <div class="adm_int">
+				<label class="label_text">Usertype</label>
+				<select class="option_text" name="user-type" id="user-type">
+				<option class="option_text" value="admin">admin</option>
+				<option class="option_text" value="student">student</option>
+				</select>
+            </div>
 
-					error_reporting(0);
-					session_start();
-					session_destroy();
-			
-				echo $_SESSION['loginMessage'];
-			
-
-					?>
-
-				</h4>
-			</center>
-			
-			<form action="login_check.php" method="POST" class="login_form">
-				
-				<div>
-					<label class="label_deg">Username</label>
-					<input type="text" name="username">
-				</div>
-
-				<div>
-					<label class="label_deg">Password</label>
-					<input type="Password" name="password">
-				</div>
-
-				<div>
-					
-					<input class="btn btn-primary" type="submit" name="submit" value="signup">
-				</div>
-
-			</form>
-
-
-		</div>
-
-	</center>
+			<div class="adm_int">
+				<label class="label_text">Password</label>
+				<input class="input_deg" type="text" name="password">
+            </div>
+            <div>
+                <input class="btn btn-primary" id="submit" type="submit" value="Signup" name="signup">
+            </div>
+        </form>
+    </div>
+	
 
 </body>
 </html>

@@ -42,7 +42,11 @@ ul li a
     text-decoration: none;
     color: white;
     font-size: 17px;
+}
 
+.signup:hover
+{
+    background-color:green !important;
 }
 
 .main_img

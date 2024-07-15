@@ -59,8 +59,9 @@ if (isset($_SESSION['message'])) {
             <li><a href="">Contact</a></li>
             <li><a href="">Admission</a></li>
             <li><a href="login.php" class="btn btn-success">Login</a></li>
+            
 
-            <li><a href="signup/signup.php" class="btn btn-warning">Signup</a></li>
+            <li><a href="signup/signup.php" class="btn btn-warning signup">Signup</a></li>
         </ul>
     </nav>
 

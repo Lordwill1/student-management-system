@@ -11,9 +11,13 @@
 	line-height: 70px;
 	padding-left: 30px;
     font-size: 25px;
-    position: relative;
+    position: fixed;
     color: white;
     font-weight: bold;
+	top: 0; /* Ensures the header is fixed to the top of the page */
+    width: 100%; /* Ensures the header spans the full width of the page */
+    z-index: 1000;
+    
 }
 
 a,a:hover 
@@ -27,6 +31,7 @@ a,a:hover
 	padding-right: 30px;
 }
 
+
 ul
 {
 	background-color: #424a5b;
@@ -36,6 +41,7 @@ ul
 	padding-top: 5%;
 	text-align: center;
 }
+
 
 ul li 
 {
